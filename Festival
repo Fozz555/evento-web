@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feria de Empleo 2024</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- CSS propio (opcional, pequeños ajustes) -->
+    <style>
+        .hero-simple {
+            background-color: #0d6efd;
+            color: white;
+            padding: 60px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR simple -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Feria de Empleo 2024</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#info">Info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#empresas">Empresas</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION simple -->
+    <section id="inicio" class="hero-simple text-center">
+        <div class="container">
+            <h1 class="display-4">FERIA DE EMPLEO 2024</h1>
+            <p class="lead">Encuentra tu futuro profesional</p>
+            <p class="fs-5">15-16 Octubre 2024 • Palacio de Congresos • Madrid</p>
+            <a href="#info" class="btn btn-light btn-lg">Más información</a>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 1: Información esencial (row con 2 columnas) -->
+    <section id="info" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Información del evento</h2>
+            <div class="row">
+                <!-- Columna 1: Qué es y cuándo -->
+                <div class="col-md-6">
+                    <div class="p-3 border rounded">
+                        <h3 class="h5">📌 ¿QUÉ ES?</h3>
+                        <p>Encuentro entre empresas y candidatos. Más de 50 empresas ofrecen puestos de trabajo en diversos sectores.</p>
+                        
+                        <h3 class="h5 mt-4">📅 ¿CUÁNDO?</h3>
+                        <p><strong>Fecha:</strong> 15 y 16 de Octubre 2024<br>
+                        <strong>Horario:</strong> De 10:00 a 20:00h</p>
+                    </div>
+                </div>
+                <!-- Columna 2: Dónde -->
+                <div class="col-md-6">
+                    <div class="p-3 border rounded">
+                        <h3 class="h5">📍 ¿DÓNDE?</h3>
+                        <p><strong>Palacio de Congresos</strong><br>
+                        Calle Principal, 45<br>
+                        28001 Madrid</p>
+                        
+                        <p class="mb-0"><strong>Cómo llegar:</strong><br>
+                        Metro: Línea 2 - Estación Congresos<br>
+                        Autobuses: 12, 24, 33</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 2: Empresas participantes (row con 3 columnas usando cards) -->
+    <section id="empresas" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Empresas participantes</h2>
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Tecnología SA</h5>
+                            <p class="card-text">Buscan desarrolladores web y programadores.</p>
+                            <p class="text-primary mb-0">10 ofertas</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Finanzas Global</h5>
+                            <p class="card-text">Necesitan asesores financieros y administrativos.</p>
+                            <p class="text-primary mb-0">8 ofertas</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Comercio Plus</h5>
+                            <p class="card-text">Ofertas en ventas y atención al cliente.</p>
+                            <p class="text-primary mb-0">12 ofertas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER simple -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h6>Feria de Empleo 2024</h6>
+                    <p class="small">Organizado por Ayuntamiento de Madrid</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Contacto</h6>
+                    <p class="small mb-0">info@feriaempleo.es</p>
+                    <p class="small">Tel: 900 111 222</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Síguenos</h6>
+                    <p class="small">@feriaempleo</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p class="small mb-0">© 2024 Feria de Empleo</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
