@@ -1,1 +1,37 @@
-En el HTML se ha hecho lo siguiente: primero se creó la estructura básica con , <html lang="es"> y el <head> con meta charset UTF-8, viewport para responsive y título de la página. Luego se enlazó el CSS de Bootstrap 5.3.3 desde CDN y se añadieron unos estilos personalizados mínimos en <style> para el hero con fondo de imagen y gradiente, la línea bajo los títulos y el color del footer. En el <body> se colocó un navbar fijo superior con Bootstrap, logo a la izquierda, menú colapsable en móvil y botón de inscripción. Después vino la sección hero con id="inicio", fondo de imagen, título grande display-3, subtítulos y botón principal. A continuación se hizo la sección "Cuándo y dónde" con fondo claro, título centrado con línea decorativa y dos columnas con cards que contienen fecha-horario y lugar-dirección-metro-parking. Luego la sección de empresas con título y tres cards en grid responsive, cada una con un sector y lista de empresas. Por último se añadió un footer oscuro centrado con copyright y datos de contacto. Al final del body se enlazó el JS de Bootstrap para que funcione el menú hamburguesa y otros elementos interactivos.
+** Descripción del proyecto **
+Página web cutre pero funcional pa la jornada tecnológica del Centro San Valero que se celebra el 12 de marzo de 2026. Está hecha con Bootstrap 5 pa que quede medio decente y se vea en tos laos: móvil, tablet y ordenador. Tiene la info básica del evento, los horarios, los que vienen a hablar y un formulario de esos de rellena y envía.
+
+** Componentes de Bootstrap usados **
+- Container fluid - Pa fondos que ocupan to el ancho
+- Grid system - To el maquetao con filas y columnas
+- Botones - btn-primary y btn-lg pa el de inscripción
+- Formulario - Inputs, select y textarea con clases de Bootstrap
+- Imágenes redondas - rounded-circle pa los ponentes
+- Cards improvisás - Con bordes border y fondo bg-light
+- Sombra - shadow en el formulario
+- Tipografía - Clases display-3, lead, fw-bold, text-muted
+
+** Commits y mejoras **
+* Commit 1: Estructura base
+- Maquetación con columnas de Bootstrap
+- Header con menú de navegación
+
+* Commit 2: Hero chulo
+- Fondo con imagen y capa oscura con gradient
+- Texto centrado y botón llamativo
+
+* Commit 3: Sección programa *
+- Horarios con tarjetas en grid
+- Distribución 3+2 columnas
+
+* Commit 4: Ponentes con fotos *
+- Imágenes redondas de Unsplash
+- Fondo azul con bg-primary
+
+* Commit 5: Formulario y footer *
+- Inscripción con to los campos
+- Pie de página con dirección y copyright
+
+** La mayor dificultad **
+- El problema: El fondo del hero principal no se veía bien porque la etiqueta de cierre </section> estaba mal colocada y la propiedad style del div estaba partida con un > mal puesto, lo que petaba too el CSS del fondo. Además la imagen no se ajustaba bien en móviles.
+- Cómo lo solucioné: Cerré bien too el HTML, arreglé la propiedad style que tenía una coma mal puesta y metí background-position: center; background-size: cover; background-repeat: no-repeat pa que la imagen se adapte como Dios manda en too tipo de pantallas.
