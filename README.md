@@ -1,4 +1,5 @@
 ** Descripción del proyecto **
+
 Página web cutre pero funcional pa la jornada tecnológica del Centro San Valero que se celebra el 12 de marzo de 2026. Está hecha con Bootstrap 5 pa que quede medio decente y se vea en tos laos: móvil, tablet y ordenador. Tiene la info básica del evento, los horarios, los que vienen a hablar y un formulario de esos de rellena y envía.
 
 ** Componentes de Bootstrap usados **
@@ -12,11 +13,11 @@ Página web cutre pero funcional pa la jornada tecnológica del Centro San Valer
 - Tipografía - Clases display-3, lead, fw-bold, text-muted
 
 ** Commits y mejoras **
-* Commit 1: Estructura base
+* Commit 1: Estructura base *
 - Maquetación con columnas de Bootstrap
 - Header con menú de navegación
 
-* Commit 2: Hero chulo
+* Commit 2: Hero chulo *
 - Fondo con imagen y capa oscura con gradient
 - Texto centrado y botón llamativo
 
